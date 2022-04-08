@@ -18,7 +18,7 @@ export default function Home({ exploreData, cardsData }: Props) {
         <title>Airbnb</title>
         {/* <link rel="icon" href="https://links.papareact.com/qd3" /> */}
       </Head>
-      <Header />
+      <Header placeholder={"Start your search"}/>
       <Banner />
       <main className="mx-auto max-w-7xl px-8 sm:px-16">
         <section className="pt-6">
