@@ -4,6 +4,7 @@ import {useRouter} from "next/dist/client/router"
 import Image from "next/image"
 import { HeartIcon } from "@heroicons/react/outline"
 import { StarIcon } from "@heroicons/react/solid"
+import Map from "../components/Map"
 
 function Search({searchResults}) {
 
@@ -55,6 +56,10 @@ function Search({searchResults}) {
                   </div>
                 </div>
               ))}
+            </section>
+
+            <section className="hidden xl:inline-flex xl:min-w-[600px]">
+              <Map/>
             </section>
         </main>
 
